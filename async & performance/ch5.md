@@ -229,7 +229,7 @@ SIMD.int32x4.add( v3, v4 );		// [ 20, 121, 1031, 10041 ]
 
 除了`mul()`和`add()`，许多其他操作也很可能被加入，比如`sub()`，`div()`，`abs()`，`neg()`，`sqrt()`，`reciprocal()`，`reciprocalSqrt()` （算数运算），`shuffle()`（重拍向量元素），`and()`，`or()`，`xor()`，`not()`（逻辑运算），`equal()`，`greaterThan()`，`lessThan()` （比较运算），`shiftLeft()`，`shiftRightLogical()`，`shiftRightArithmetic()`（轮换），`fromFloat32x4()`，和`fromInt32x4()`（变换）。
 
-**注意：** 这里有一个SIMD功能的官方“填补”（很有希望，预期的，着眼未来的填补）（https://github.com/johnmccutchan/ecmascript_simd ），它描述了许多比我们在这一节中没有讲到的许多计划中的SIMD功能。
+**注意：** 这里（https://github.com/johnmccutchan/ecmascript_simd ）有一个 SIMD 功能可用的官方（很有希望，预期的，着眼未来的）prollyfill （译注：prollyfill 指的是尚未成为标准 API 的“填补” polyfill），它描述了许多在我们这一节中没有讲到的计划中的 SIMD 功能。
 
 ## asm.js
 
